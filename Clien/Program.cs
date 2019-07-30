@@ -13,7 +13,7 @@ namespace Clien
     {
         static void Main(string[] args)
         {
-            int port = 8080;
+            int port = 8082;
             string ipaddress = "172.16.5.173";
             Socket clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPEndPoint ep = new IPEndPoint(IPAddress.Parse(ipaddress), port);
